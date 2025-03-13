@@ -176,8 +176,8 @@ export const philosophers: Philosopher[] = [
       "Sınırsız, evrenin temel maddesidir.",
       "Evrenin sınırsız ve sonsuz olduğu"
     ],
-    influenced: ["Thales"],
-    influence: [],
+    influenced: [],
+    influence: ["Thales"],
     book: [],
     icons: []
   },
@@ -283,8 +283,8 @@ export const philosophers: Philosopher[] = [
       "Tüm canlıların ruhu vardır",
       "Hava, evrenin temel maddesidir",
     ],
-    influenced: ["Thales"],
-    influence: [],
+    influenced: [],
+    influence: ["Thales"],
     book: [],
     icons: []
   },
@@ -342,8 +342,8 @@ export const philosophers: Philosopher[] = [
       "Değişim ve dönüşüm",
       "Çelişki ve uyum"
     ],
-    influenced: ["Thales", "Anaksimandros", "Anaksimenes"],
-    influence: [],
+    influenced: [],
+    influence: ["Thales", "Anaksimandros", "Anaksimenes"],
     book: [
       {
         title: "Fragmanlar",
@@ -376,8 +376,8 @@ export const philosophers: Philosopher[] = [
       "Varlık, değişmezdir",
       "Varlık var olandır, hiçlik ya da var olamayan ise var değildir."
     ],
-    influenced: ["Heraklitos", "Pisagor", "Ksenofanes"],
-    influence: [],
+    influenced: [],
+    influence: ["Heraklitos", "Pisagor", "Ksenofanes"],
     book: [
       {
         title: "Doğa Üzerine",
@@ -402,7 +402,7 @@ export const philosophers: Philosopher[] = [
       "Akıl, evrenin temel maddesidir.",
       "Evrenin düzeni ve akıl tarafından yönetildiği"
     ],
-    influenced: ["Platon", "Aristoteles"],
+    influenced: [],
     influence: [],
     book: [],
     icons: []
@@ -423,8 +423,8 @@ export const philosophers: Philosopher[] = [
       "Evrenin sonsuzluğu",
       "Rastlantısal evrim"
     ],
-    influenced: ["Demokritos", "Epicurus", "Lucretius"],
-    influence: [],
+    influenced: [],
+    influence: ["Demokritos", "Epicurus", "Lucretius"],
     book: [
       {
         title: "Atomcu Felsefe Fragmanları",
@@ -467,8 +467,8 @@ export const philosophers: Philosopher[] = [
       "Sevgi ve nefret",
       "Evrenin sonsuzluğu"
     ],
-    influenced: ["Heraklitos", "Pisagor", "Parmenides", "Ksenofanes"],
-    influence: [],
+    influenced: [],
+    influence: ["Heraklitos", "Pisagor", "Parmenides", "Ksenofanes"],
     book: [],
     icons: []
   },
@@ -488,8 +488,8 @@ export const philosophers: Philosopher[] = [
       "Bilgi ve gerçeklik",
       "İyi ve kötü"
     ],
-    influenced: ["Parmenides", "Demokritos", "Elealı Zenon"],
-    influence: [],
+    influenced: [],
+    influence: ["Parmenides", "Demokritos", "Elealı Zenon"],
     book: [],
     icons: []
   },
@@ -508,8 +508,8 @@ export const philosophers: Philosopher[] = [
       "Retorik",
       "Hiç bir şey yoktur; bir şey varsa bile bilinemez; bilinse bile başkalarına bildirilemez.",
     ],
-    influenced: ["Empedokles", "Parmenides", "Elealı Zenon"],
-    influence: [],
+    influenced: [],
+    influence: ["Empedokles", "Parmenides", "Elealı Zenon"],
     book: [],
     icons: []
   },
@@ -555,8 +555,8 @@ export const philosophers: Philosopher[] = [
       "Evrenin sonsuzluğu",
       "Rastlantısal evrim"
     ],
-    influenced: ["Leukippos", "Parmenides", "Samoslu Melissus"],
-    influence: [],
+    influenced: [],
+    influence: ["Leukippos", "Parmenides", "Samoslu Melissus"],
     book: [],
     icons: []
   },
@@ -591,8 +591,8 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Oluş bir kuruntuysa, evrenin nasıl yaratıldığını araştırmak boşuna,"
     ],
-    influenced: ["Parmenides", "Elealı Zeno"],
-    influence: [],
+    influenced: [],
+    influence: ["Parmenides", "Elealı Zeno"],
     book: [],
     icons: []
   },
@@ -639,6 +639,7 @@ export const philosophers: Philosopher[] = [
     deathYear: -365,
     period: "Antik Çağ",
     movement: "Kinikler",
+    school: "Kinikler Okulu",
     nationality: "Yunan",
     image: "/img/antisthenes.jpg",
     bio: "Antisthenes, Atina'da doğmuş Antik Yunan filozofudur. Sokrates'in öğrencisi ve Kinikler okulunun kurucusudur. İnsanın doğal yaşam tarzını savunmuştur.",
@@ -647,8 +648,8 @@ export const philosophers: Philosopher[] = [
       "Mutluluk, erdemli yaşamda bulunur",
       "İhtiyaçlarla sınırlı yaşam"
     ],
-    influenced: ["Zenon", "Kleanthes", "Ksenokrates"],
-    influence: [],
+    influenced: ["Diyojen", "Krates", "Kbrıslı Zenon"],
+    influence: ["Gorgias", "Sokrates"],
     book: [
       {
         title: "Kinik Felsefe Fragmanları",
@@ -673,17 +674,18 @@ export const philosophers: Philosopher[] = [
     birthYear: -435,
     deathYear: -356,
     period: "Antik Çağ",
-    movement: "Kinikler",
+    movement: "Hedonizm",
+    school: "Kirene Okulu",
     nationality: "Yunan",
     image: "/img/aristippos.jpg",
-    bio: "Aristippos, Antik Yunan filozofu ve Kinikler okulunun kurucusu olan Sokrates'in öğrencisidir. Aristippos, hazcılık felsefesini benimsemiştir.",
+    bio: "Aristippos, Antik Yunan filozofu ve Kirene okulunun kurucusu olan Sokrates'in öğrencisidir. Aristippos, hazcılık felsefesini benimsemiştir.",
     keyIdeas: [
       "Hazcılık",
       "Mutluluk, hazda bulunur",
       "İhtiyaçlarla sınırlı yaşam"
     ],
-    influenced: ["Zenon", "Kleanthes", "Ksenokrates"],
-    influence: [],
+    influenced: [],
+    influence: ["Sokrates"],
     book: [],
     icons: []
   },
@@ -703,11 +705,11 @@ export const philosophers: Philosopher[] = [
       "İdeal devlet",
       "Ruh kuramı"
     ],
-    influenced: ["Aristoteles", "Plotinus", "Augustinus", "Batı Felsefesi"],
+    influenced: [],
     influence: [],
     book: [
       {
-        title: "Alkibiades",
+        title: "Alkibiades", 
         image: "/book/platon_alkibiades.jpeg",
         description: ""
       },
@@ -794,8 +796,8 @@ export const philosophers: Philosopher[] = [
       "Mutluluk, erdemli yaşamda bulunur",
       "İhtiyaçlarla sınırlı yaşam"
     ],
-    influenced: ["Krates", "Zenon", "Kleanthes"],
-    influence: [],
+    influenced: [],
+    influence: ["Antisthenes"],
     book: [],
     icons: [
       {
@@ -821,7 +823,7 @@ export const philosophers: Philosopher[] = [
       "Altın orta",
       "Mantık sistemi"
     ],
-    influenced: ["İbn Sina", "Aquinas", "Skolastik felsefe", "Modern bilim"],
+    influenced: [],
     influence: [],
     book: [
       {
@@ -889,7 +891,7 @@ export const philosophers: Philosopher[] = [
       "Mantık sistemi",
       "Erdem ve erdemli yaşam"
     ],
-    influenced: ["Seneca", "Epiktetos", "Marcus Aurelius"],
+    influenced: [],
     influence: [],
     book: [],
     icons: []
@@ -909,7 +911,7 @@ export const philosophers: Philosopher[] = [
       "Kendi içsel özgürlüğünü kazan",
       "Kendi içsel huzurunu koru"
     ],
-    influenced: ["Montaigne", "Nietzsche", "Emerson"],
+    influenced: [],
     influence: [],
     book: [
       {
@@ -941,7 +943,7 @@ export const philosophers: Philosopher[] = [
       "Kendi iç huzurunu bul",
       "Kendine yönelik çalışma"
     ],
-    influenced: ["Montaigne", "Nietzsche", "Emerson"],
+    influenced: [],
     influence: [],
     book: [
       {
@@ -976,11 +978,495 @@ export const philosophers: Philosopher[] = [
       "Tanrı'nın varlığı",
       "İyi ve kötü"
     ],
-    influenced: ["Aquinas", "Dante", "Chaucer"],
+    influenced: [],
     influence: [],
     book: [
 
     ],
     icons: []
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    id: "leonardo-da-vinci",
+    name: "Leonardo da Vinci",
+    birthYear: 1452,
+    deathYear: 1519,
+    period: "Rönesans",
+    movement: "Rönesans Hümanizmi",
+    nationality: "İtalyan",
+    image: "/img/da-vinci.jpg",
+    bio: "Leonardo da Vinci, Rönesans döneminin en önemli sanatçılarından ve bilim insanlarından biridir. Sanat, anatomi, mühendislik ve bilim alanlarında önemli katkılar yapmıştır.",
+    keyIdeas: [
+      "Sanat ve bilim bir bütündür",
+      "Doğayı gözlemleyerek öğren",
+      "Bilgiye sınır koyma"
+    ],
+    influenced: ["Michelangelo", "Galileo Galilei", "Francis Bacon"],
+    influence: ["Platon", "Aristoteles"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-blue-300",
+      }
+    ]
+  },
+  {
+    id: "niccolo-machiavelli",
+    name: "Niccolò Machiavelli",
+    birthYear: 1469,
+    deathYear: 1527,
+    period: "Rönesans",
+    movement: "Siyaset Felsefesi",
+    nationality: "İtalyan",
+    image: "/img/machiavelli.jpg",
+    bio: "Niccolò Machiavelli, Rönesans döneminin önemli siyaset düşünürlerindendir. 'Prens' adlı eseriyle siyaset biliminin temellerini atmıştır. Realist bir yaklaşımla iktidar ve siyaset üzerine analizler yapmıştır.",
+    keyIdeas: [
+      "Amaca ulaşmak için her yol mubahtır",
+      "Gerçekçi siyaset analizi",
+      "İktidarın doğası"
+    ],
+    influenced: ["Thomas Hobbes", "Jean-Jacques Rousseau", "Friedrich Nietzsche"],
+    influence: ["Platon", "Aristoteles", "Cicero"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-red-300",
+      }
+    ]
+  },
+  {
+    id: "francis-bacon",
+    name: "Francis Bacon",
+    birthYear: 1561,
+    deathYear: 1626,
+    period: "Aydınlanma",
+    movement: "Bilimsel Yöntem",
+    nationality: "İngiliz",
+    image: "/img/bacon.jpg",
+    bio: "Francis Bacon, bilimsel yöntemin öncülerindendir. Deney ve gözleme dayalı bilgi anlayışını savunmuştur. 'Novum Organum' adlı eseriyle bilim felsefesine katkıda bulunmuştur.",
+    keyIdeas: [
+      "Bilimsel yöntem",
+      "Deney ve gözlem",
+      "Bilginin gücü"
+    ],
+    influenced: ["John Locke", "Isaac Newton", "René Descartes"],
+    influence: ["Aristoteles", "Platon"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-green-300",
+      }
+    ]
+  },
+  {
+    id: "voltaire",
+    name: "Voltaire",
+    birthYear: 1694,
+    deathYear: 1778,
+    period: "Aydınlanma",
+    movement: "Aydınlanma Felsefesi",
+    nationality: "Fransız",
+    image: "/img/voltaire.jpg",
+    bio: "Voltaire, Aydınlanma döneminin önde gelen düşünürlerindendir. Din, özgürlük ve insan hakları üzerine yazılar yazmıştır. Eleştirel düşünce ve hoşgörüyü savunmuştur.",
+    keyIdeas: [
+      "Hoşgörü",
+      "Eleştirel düşünce",
+      "Din ve özgürlük"
+    ],
+    influenced: ["Jean-Jacques Rousseau", "Thomas Paine", "Immanuel Kant"],
+    influence: ["John Locke", "Montaigne"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-yellow-300",
+      }
+    ]
+  },
+  {
+    id: "david-hume",
+    name: "David Hume",
+    birthYear: 1711,
+    deathYear: 1776,
+    period: "Aydınlanma",
+    movement: "Empirizm",
+    nationality: "İskoç",
+    image: "/img/hume.jpg",
+    bio: "David Hume, empirizmin önemli temsilcilerindendir. Bilginin deneyimden geldiğini savunmuş ve nedensellik kavramını sorgulamıştır. Ahlak ve din felsefesi üzerine de çalışmalar yapmıştır.",
+    keyIdeas: [
+      "Empirizm",
+      "Nedensellik eleştirisi",
+      "Ahlak felsefesi"
+    ],
+    influenced: ["Immanuel Kant", "Adam Smith", "John Stuart Mill"],
+    influence: ["John Locke", "George Berkeley"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-purple-300",
+      }
+    ]
+  },
+  {
+    id: "denis-diderot",
+    name: "Denis Diderot",
+    birthYear: 1713,
+    deathYear: 1784,
+    period: "Aydınlanma",
+    movement: "Ansiklopedist",
+    nationality: "Fransız",
+    image: "/img/diderot.jpg",
+    bio: "Denis Diderot, Aydınlanma döneminin önemli düşünürlerindendir. 'Ansiklopedi' projesiyle bilgiyi yaymayı amaçlamıştır. Materyalist ve ateist görüşleriyle tanınır.",
+    keyIdeas: [
+      "Ansiklopedi projesi",
+      "Materyalizm",
+      "Ateizm"
+    ],
+    influenced: ["Jean-Jacques Rousseau", "Voltaire", "Karl Marx"],
+    influence: ["John Locke", "Francis Bacon"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-indigo-300",
+      }
+    ]
+  },
+  {
+    id: "jean-jacques-rousseau",
+    name: "Jean-Jacques Rousseau",
+    birthYear: 1712,
+    deathYear: 1778,
+    period: "Aydınlanma",
+    movement: "Toplum Sözleşmesi",
+    nationality: "Fransız",
+    image: "/img/rousseau.jpg",
+    bio: "Jean-Jacques Rousseau, toplum sözleşmesi teorisiyle tanınan bir filozoftur. İnsan doğası, eğitim ve siyaset üzerine önemli eserler vermiştir. 'Toplum Sözleşmesi' adlı eseri modern demokrasi teorisine katkıda bulunmuştur.",
+    keyIdeas: [
+      "Toplum sözleşmesi",
+      "İnsan doğası",
+      "Eğitim felsefesi"
+    ],
+    influenced: ["Immanuel Kant", "Karl Marx", "Friedrich Nietzsche"],
+    influence: ["John Locke", "Thomas Hobbes"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-pink-300",
+      }
+    ]
+  },
+  {
+    id: "john-locke",
+    name: "John Locke",
+    birthYear: 1632,
+    deathYear: 1704,
+    period: "Aydınlanma",
+    movement: "Empirizm",
+    nationality: "İngiliz",
+    image: "/img/locke.jpg",
+    bio: "John Locke, empirizmin kurucularındandır. Bilginin deneyimden geldiğini savunmuştur. Siyaset felsefesinde 'doğal haklar' ve 'toplum sözleşmesi' kavramlarını geliştirmiştir.",
+    keyIdeas: [
+      "Empirizm",
+      "Doğal haklar",
+      "Toplum sözleşmesi"
+    ],
+    influenced: ["Voltaire", "Jean-Jacques Rousseau", "David Hume"],
+    influence: ["Aristoteles", "Thomas Hobbes"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-blue-300",
+      }
+    ]
+  },
+  {
+    id: "baruch-spinoza",
+    name: "Baruch Spinoza",
+    birthYear: 1632,
+    deathYear: 1677,
+    period: "Aydınlanma",
+    movement: "Rasyonalizm",
+    nationality: "Hollandalı",
+    image: "/img/spinoza.jpg",
+    bio: "Baruch Spinoza, rasyonalist bir filozoftur. Tanrı ve doğa arasında bir birlik olduğunu savunmuştur. 'Etika' adlı eseriyle etik ve metafizik üzerine önemli katkılar yapmıştır.",
+    keyIdeas: [
+      "Rasyonalizm",
+      "Tanrı ve doğa birliği",
+      "Etik"
+    ],
+    influenced: ["Gottfried Wilhelm Leibniz", "Friedrich Nietzsche", "Albert Einstein"],
+    influence: ["René Descartes", "Platon"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-green-300",
+      }
+    ]
+  },
+  {
+    id: "blaise-pascal",
+    name: "Blaise Pascal",
+    birthYear: 1623,
+    deathYear: 1662,
+    period: "Aydınlanma",
+    movement: "Matematik ve Felsefe",
+    nationality: "Fransız",
+    image: "/img/pascal.jpg",
+    bio: "Blaise Pascal, matematik ve felsefe alanlarında önemli katkılar yapmıştır. 'Pascal'ın Bahsi' adlı argümanıyla tanınır. Din ve bilim arasındaki ilişki üzerine düşünceler geliştirmiştir.",
+    keyIdeas: [
+      "Pascal'ın Bahsi",
+      "Matematiksel düşünce",
+      "Din ve bilim"
+    ],
+    influenced: ["René Descartes", "Voltaire", "Søren Kierkegaard"],
+    influence: ["Augustinus", "Montaigne"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-red-300",
+      }
+    ]
+  },
+  {
+    id: "michel-de-montaigne",
+    name: "Michel de Montaigne",
+    birthYear: 1533,
+    deathYear: 1592,
+    period: "Rönesans",
+    movement: "Hümanizm",
+    nationality: "Fransız",
+    image: "/img/montaigne.jpg",
+    bio: "Michel de Montaigne, deneme türünün kurucusu olarak kabul edilir. İnsan doğası, ahlak ve toplum üzerine düşüncelerini 'Denemeler' adlı eserinde toplamıştır. Şüpheci bir yaklaşım benimsemiştir.",
+    keyIdeas: [
+      "Deneme türü",
+      "Şüphecilik",
+      "İnsan doğası"
+    ],
+    influenced: ["René Descartes", "Blaise Pascal", "Voltaire"],
+    influence: ["Seneca", "Plutarkhos"],
+    book: [],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-yellow-300",
+      }
+    ]
+  },
+
+
+  {
+    id: "rene-descartes",
+    name: "René Descartes",
+    birthYear: 1596,
+    deathYear: 1650,
+    period: "Yeni Çağ",
+    movement: "Rasyonalizm",
+    nationality: "Fransa",
+    image: "/img/descartes.jpg",
+    bio: "René Descartes, modern felsefenin babası olarak bilinir. 'Düşünüyorum, öyleyse varım' sözüyle ünlüdür.",
+    keyIdeas: [
+      "Metodik şüphe",
+      "Düşünüyorum, öyleyse varım",
+      "Akılcılık"
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "Meditasyonlar",
+        image: "/img/descartes.jpg",
+        description: "Descartes'in metafizik ve epistemoloji üzerine yazdığı felsefi eseridir."
+      }
+    ],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-blue-300",
+      }
+    ]
+  },
+  {
+    id: "immanuel-kant",
+    name: "Immanuel Kant",
+    birthYear: 1724,
+    deathYear: 1804,
+    period: "Aydınlanma Çağı",
+    movement: "Transandantal Idealizm",
+    nationality: "Almanya",
+    image: "/img/kant.jpg",
+    bio: "Immanuel Kant, modern felsefenin en önemli figürlerinden biridir. Saf Aklın Eleştirisi adlı eseri ile tanınır.",
+    keyIdeas: [
+      "A priori bilgi",
+      "Transandantal idealizm",
+      "Ahlak yasası"
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "Saf Aklın Eleştirisi",
+        image: "/img/kant.jpg",
+        description: "Kant'ın bilgi ve metafizik üzerine yazdığı en ünlü eseridir."
+      }
+    ],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-yellow-300",
+      }
+    ]
+  },
+  {
+    id: "arthur-schopenhauer",
+    name: "Arthur Schopenhauer",
+    birthYear: 1788,
+    deathYear: 1860,
+    period: "19. Yüzyıl",
+    movement: "Pessimizm, İdealizm",
+    nationality: "Almanya",
+    image: "/img/arthur-schopenhauer.jpg",
+    bio: "Arthur Schopenhauer, irade ve temsil kavramları üzerine yoğunlaşan filozoflardan biridir.",
+    keyIdeas: [
+      "İrade ve temsil",
+      "Hayat acıdır",
+      "Sanat ve estetik"
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "İrade ve Tasarım Olarak Dünya",
+        image: "/img/schopenhauer.jpg",
+        description: "Schopenhauer'in en önemli felsefi eseridir."
+      }
+    ],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-red-300",
+      }
+    ]
+  },
+  {
+    id: "friedrich-nietzsche",
+    name: "Friedrich Nietzsche",
+    birthYear: 1844,
+    deathYear: 1900,
+    period: "19. Yüzyıl",
+    movement: "Varoluşçuluk, Nihilizm",
+    nationality: "Almanya",
+    image: "/img/nietzsche.jpg",
+    bio: "Friedrich Nietzsche, nihilizm ve güç istenci kavramlarıyla tanınan filozoflardan biridir.",
+    keyIdeas: [
+      "Tanrı öldü",
+      "Güç istenci",
+      "Üst insan"
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "Böyle Buyurdu Zerdüşt",
+        image: "/img/nietzsche.jpg",
+        description: "Nietzsche'nin felsefi ve edebi eseridir."
+      }
+    ],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-purple-300",
+      }
+    ]
+  },
+  {
+    id: "jean-paul-sartre",
+    name: "Jean-Paul Sartre",
+    birthYear: 1905,
+    deathYear: 1980,
+    period: "20. Yüzyıl",
+    movement: "Varoluşçuluk",
+    nationality: "Fransa",
+    image: "/img/sartre.jpg",
+    bio: "Jean-Paul Sartre, varoluşçuluk felsefesinin en önemli isimlerinden biridir.",
+    keyIdeas: [
+      "Varoluş özden önce gelir",
+      "İnsan özgürlüğe mahkumdur",
+      "Kendini gerçekleştirme"
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "Varlık ve Hiçlik",
+        image: "/img/sartre.jpg",
+        description: "Sartre'ın varoluşçuluk üzerine yazdığı en önemli eserlerinden biridir."
+      }
+    ],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-orange-300",
+      }
+    ]
+  },
+  {
+    id: "saint-augustine",
+    name: "Saint Augustinus",
+    birthYear: 354,
+    deathYear: 430,
+    period: "Orta Çağ",
+    movement: "Hristiyan Felsefesi",
+    nationality: "Roma",
+    image: "/img/augustinus.jpg",
+    bio: "Saint Augustinus, Batı Hristiyan felsefesinin en önemli düşünürlerinden biridir.",
+    keyIdeas: [
+      "Tanrı’nın varlığı",
+      "İman ve akıl",
+      "Özgür irade"
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "İtiraflar",
+        image: "/img/augustinus.jpg",
+        description: "Augustinus'un otobiyografik felsefi eseri."
+      }
+    ],
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-teal-300",
+      }
+    ]
   }
+
+
+
+
 ];

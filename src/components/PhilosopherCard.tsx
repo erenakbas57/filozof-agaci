@@ -85,11 +85,11 @@ export const PhilosopherCard: React.FC<PhilosopherCardProps> = ({
             <div className="h-1 w-full bg-border mb-3 "></div>
             <p>{philosopher.bio}</p>
 
-            {philosopher.influenced?.length ? (
+            {philosopher.influence?.length ? (
               <>
                 <div className="h-px w-full bg-border my-3"></div>
                 <h4 className="text-sm font-semibold mb-1">Etkilendikleri</h4>
-                {philosopher.influenced.map((work) => (
+                {philosopher.influence.map((work) => (
                   <p
                     key={work}
                     className="text-xs line-clamp-2 text-foreground/80"

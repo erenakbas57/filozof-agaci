@@ -199,7 +199,7 @@ const PhilosopherDetails = () => {
                     Etkilendiği Kişiler
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {philosopher.influenced?.map((influence, index) => (
+                    {philosopher.influence?.map((influence, index) => (
                       <span
                         key={index}
                         className="px-3 py-1 bg-white/10 dark:bg-white/5 rounded-full text-sm"
@@ -215,7 +215,7 @@ const PhilosopherDetails = () => {
                     Etkilediği Kişiler
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {philosopher.influence?.map((influenced, index) => (
+                    {philosopher.influenced?.map((influenced, index) => (
                       <span
                         key={index}
                         className="px-3 py-1 bg-white/10 dark:bg-white/5 rounded-full text-sm"
