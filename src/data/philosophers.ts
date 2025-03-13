@@ -23,19 +23,19 @@ export interface Philosopher {
 export const philosophers: Philosopher[] = [
   {
     id: "650",
-    name: null,
+    name: undefined,
     birthYear: -650,
     bio: "MÖ 650"
   },
   {
     id: "-470",
-    name: null,
+    name: undefined,
     birthYear: -470,
     bio: "SOKRATES"
   },
   {
     id: "0",
-    name: null,
+    name: undefined,
     birthYear: 0,
     bio: "İSA"
   },
