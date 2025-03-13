@@ -124,10 +124,10 @@ export const PhilosopherCard: React.FC<PhilosopherCardProps> = ({
 
                 {philosopher.book.map((book) => (
                   <li
-                    key={book}
+                    key={book.title}
                     className="text-xs line-clamp-2 text-foreground/80"
                   >
-                    {book}
+                    {book.title}
                   </li>
                 ))}
               </>

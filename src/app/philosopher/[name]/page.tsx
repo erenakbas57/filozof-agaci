@@ -8,6 +8,8 @@ import {
   Quote,
   Users,
   Calendar,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 import { philosophers, Philosopher } from "@/data/philosophers";
 import { useParams } from "next/navigation";
@@ -16,6 +18,7 @@ const PhilosopherDetails = () => {
   const { name } = useParams<{ name: string }>();
   const [philosopher, setPhilosopher] = useState<Philosopher | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isBooksExpanded, setIsBooksExpanded] = useState(false);
 
   useEffect(() => {
     // Simulate loading
@@ -83,7 +86,7 @@ const PhilosopherDetails = () => {
               <img
                 src={philosopher.image}
                 alt={philosopher.name}
-                className="w-full h-full object-cover "
+                className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>
@@ -135,36 +138,52 @@ const PhilosopherDetails = () => {
             <div className="glass-card rounded-xl p-6">
               <h2 className="flex items-center gap-2 text-xl font-serif font-medium mb-4">
                 <BookOpen className="w-5 h-5 text-primary" />
-                Temel Fikirler ve Eserler
+                Temel Fikirler
               </h2>
+              <ul className="list-disc list-inside space-y-2">
+                {philosopher.keyIdeas?.map((idea, index) => (
+                  <li key={index}>{idea}</li>
+                ))}
+              </ul>
+            </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-sm uppercase tracking-wide text-muted-foreground mb-3">
-                    Temel Fikirler
-                  </h3>
-                  <ul className="list-disc list-inside space-y-2">
-                    {philosopher.keyIdeas?.map((idea, index) => (
-                      <li key={index}>{idea}</li>
-                    ))}
-                  </ul>
-                </div>
+            <div className="glass-card rounded-xl p-6">
+              <button
+                onClick={() => setIsBooksExpanded(!isBooksExpanded)}
+                className="w-full flex items-center justify-between text-xl font-serif font-medium mb-4"
+              >
+                <span className="flex items-center gap-2">
+                  <BookOpen className="w-5 h-5 text-primary" />
+                  Eserler
+                </span>
+                {isBooksExpanded ? (
+                  <ChevronUp className="w-5 h-5" />
+                ) : (
+                  <ChevronDown className="w-5 h-5" />
+                )}
+              </button>
 
-                <div>
-                  <h3 className="text-sm uppercase tracking-wide text-muted-foreground mb-3">
-                    Eserler
-                  </h3>
-                  <ul className="space-y-4">
-                    {philosopher.book?.map((work, index) => (
-                      <li
-                        key={index}
-                        className="pb-3 border-b border-white/10 last:border-0"
-                      >
-                        <div className="font-medium">{work}</div>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+              <div
+                className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300 ${
+                  isBooksExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+                }`}
+              >
+                {philosopher.book?.map((book, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-col items-center bg-white/5 rounded-lg p-4 transition-transform hover:scale-105"
+                  >
+                    <div className="w-full aspect-[8/13] mb-4 rounded-lg overflow-hidden">
+                      <img
+                        src={book.image || "https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=1776&auto=format&fit=crop"}
+                        alt={book.title}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                    <h3 className="text-center font-medium">{book.title}</h3>
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -231,10 +250,6 @@ const PhilosopherDetails = () => {
           </section>
         </div>
       </main>
-
-      <footer className="p-6 text-center text-sm text-muted-foreground border-t border-white/10">
-        <p>© 2023 Filozoflar Zaman Çizelgesi. Tüm hakları saklıdır.</p>
-      </footer>
     </div>
   );
 };
