@@ -34,39 +34,20 @@ export const philosophers: Philosopher[] = [
     id: "650",
     name: undefined,
     birthYear: -650,
-    bio: "MÖ 650"
+    bio: "MÖ 650",
   },
   {
     id: "-470",
     name: undefined,
     birthYear: -470,
-    bio: "SOKRATES"
+    bio: "SOKRATES",
   },
   {
     id: "0",
     name: undefined,
     birthYear: 0,
-    bio: "İSA"
+    bio: "İSA",
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     id: "solon",
@@ -88,8 +69,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: PiNumberSevenBold,
         color: "bg-green-600",
-      }
-    ]
+      },
+    ],
   },
 
   {
@@ -111,8 +92,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: PiNumberSevenBold,
         color: "bg-green-600",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "periandros",
@@ -133,8 +114,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: PiNumberSevenBold,
         color: "bg-green-600",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "thales",
@@ -157,9 +138,9 @@ export const philosophers: Philosopher[] = [
     icons: [
       {
         icon: PiNumberSevenBold,
-        color: "bg-red-600",
-      }
-    ]
+        color: "bg-green-600",
+      },
+    ],
   },
   {
     id: "anaksimandros",
@@ -174,12 +155,12 @@ export const philosophers: Philosopher[] = [
     bio: "Anaksimandros, Miletoslu bir Yunan filozofudur. Thales'in öğrencisi ve halefidir. Evrenin temel maddesini sınırsızı olarak tanımlamıştır.",
     keyIdeas: [
       "Sınırsız, evrenin temel maddesidir.",
-      "Evrenin sınırsız ve sonsuz olduğu"
+      "Evrenin sınırsız ve sonsuz olduğu",
     ],
     influenced: [],
     influence: ["Thales"],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "khilon",
@@ -194,7 +175,7 @@ export const philosophers: Philosopher[] = [
     bio: "Yedi Bilge'den biri olup, Damagetes’in oğludur.",
     keyIdeas: [
       "Kendi kendini kontrol et",
-      "Bir kişinin kendisini bilmesi, hayatını iyi yaşamasının ilk adımıdır"
+      "Bir kişinin kendisini bilmesi, hayatını iyi yaşamasının ilk adımıdır",
     ],
     influenced: [],
     influence: [],
@@ -203,8 +184,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: PiNumberSevenBold,
         color: "bg-green-600",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "bias",
@@ -225,8 +206,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: PiNumberSevenBold,
         color: "bg-green-600",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "kleobulos",
@@ -247,8 +228,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: PiNumberSevenBold,
         color: "bg-green-600",
-      }
-    ]
+      },
+    ],
   },
 
   {
@@ -266,7 +247,7 @@ export const philosophers: Philosopher[] = [
     influenced: [],
     influence: [],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "anaksimenes",
@@ -279,14 +260,11 @@ export const philosophers: Philosopher[] = [
     nationality: "Milet",
     image: "/img/anaksimenes.jpg",
     bio: "Anaksimenes, doğa filozofu ve geleneksel olarak Batı dünyasının ilk filozofları kabul edilen Miletos'lu üç düşünürün sonuncusudur. Thales'in öğrencisidir. Hava'nın evrenin temel maddesi olduğunu savunmuştur.",
-    keyIdeas: [
-      "Tüm canlıların ruhu vardır",
-      "Hava, evrenin temel maddesidir",
-    ],
+    keyIdeas: ["Tüm canlıların ruhu vardır", "Hava, evrenin temel maddesidir"],
     influenced: [],
     influence: ["Thales"],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "ksenofanes",
@@ -307,7 +285,7 @@ export const philosophers: Philosopher[] = [
     influenced: [],
     influence: [],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "pythagoras",
@@ -323,8 +301,56 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [],
     influenced: [],
     influence: [],
+    book: [
+      {
+        title: "Fragmanlar",
+        image: "/img/pythagoras.jpg",
+        description: "Pythagoras'ın günümüze ulaşan Türkçe fragmanları.",
+      }
+    ],
+    icons: [],
+  },
+  {
+    id: "hippasus",
+    name: "Hippasus",
+    birthYear: -530,
+    deathYear: -450,
+    period: "Antik Çağ",
+    movement: "Pisagorculuk",
+    school: "Pisagorculuk",
+    nationality: "Metapontum",
+    image: "/img/hippasus.jpg",
+    bio: "Hippasus, Pisagorculuk okulunun üyelerinden biridir. Pisagorcuların evrenin temel maddesini sayı olarak tanımladığı bilinir.Aristoteles, Hippasus'un ateş unsurunu her şeyin sebebi olarak tuttuğundan ve Herakleitos ile ateşi evrendeki ilk element olarak tanımladığından bahseder; ve Sextus Empiricus, bu açıdan onu Pisagorcularla karşılaştırır, arinin maddi olduğuna inandılar, onlar bunun cisimsiz, yani sayı olduğunu düşündüler. Diogenes Laërtius bize Hippasus'un 'evrendeki değişikliklerin tamamlanması için gereken belirli bir zaman olduğuna ve evrenin sınırlı ve hareket halinde olduğuna' inandığını söyler. Bir ifadeye göre, Hippasus hiçbir yazı bırakmadı, bir başkasına göre, Pisagor'u itibarını zedelemek için yazılmış Mistik Söylem (İngilizce: Mystic Discourse)'in yazarıydı.",
+    keyIdeas: [
+      "Sayılar, evrenin temel maddesidir",
+      "Ateş, evrenin temel maddesidir",
+    ],
+    influenced: [],
+    influence: [
+      "Pisagor",
+    ],
     book: [],
-    icons: []
+  },
+  {
+    id: "alkmaion",
+    name: "Krotonlu Alkmaion",
+    birthYear: -500,
+    deathYear: -430,
+    period: "Antik Çağ",
+    movement: "Pisagorculuk",
+    school: "Pisagorculuk",
+    nationality: "Kroton",
+    image: "/img/alkmaion.jpg",
+    bio: "Alkmaion, Krotonlu bir Yunan filozofudur. Pisagorculuk okulunun üyelerinden biridir. Alkmaion, sağlık ve hastalık üzerine çalışmıştır. Onun düşüncesinde insan ve hayvan arasındaki temel ayrılık insanın düşünce yapısından kaynaklanır. İnsanın düşünmesi hafıza, tasavvur ve bilgilerden meydana geliyordu ki, diğer biyolojik canlılarda olmayan bir niteliktir bu ona göre. Filozofluğunun yanı sıra hekimliğinin de bu düşüncelerinde etkisi olmuştur. Alkmaiōn'un bir başka önemli yanı ise, beynin, düşüncelerin temel maddesi ve insan algılayışının merkezi organı olduğunu tahmin etmiş ve öne sürmüş olmasıdır. Platon'un diyaloglarında ismi geçmektedir.",
+    keyIdeas: [
+      "Beynin, düşüncelerin temel maddesi ve insan algılayışının merkezi organı olduğunu tahmin etmiş",
+      "İnsan ve hayvan arasındaki temel ayrılık",
+    ],
+    influenced: [],
+    influence: [
+      "Pisagor",
+    ],
+    book: [],
   },
   {
     id: "heraklitos",
@@ -337,26 +363,22 @@ export const philosophers: Philosopher[] = [
     nationality: "Yunan",
     image: "/img/heraklitos.jpg",
     bio: "Heraklitos, Efesli bir Yunan filozofudur. 'Aynı nehire iki kez hem giriyoruz hem girmiyoruz' sözüyle tanınır. Değişim ve dönüşüm üzerine düşünceleriyle ünlüdür.",
-    keyIdeas: [
-      "Her şey akar",
-      "Değişim ve dönüşüm",
-      "Çelişki ve uyum"
-    ],
+    keyIdeas: ["Her şey akar", "Değişim ve dönüşüm", "Çelişki ve uyum"],
     influenced: [],
     influence: ["Thales", "Anaksimandros", "Anaksimenes"],
     book: [
       {
         title: "Fragmanlar",
         image: "/img/heraklitos.jpg",
-        description: "Heraklitos'un günümüze ulaşan İngilizce fragmanları."
-      }
+        description: "Heraklitos'un günümüze ulaşan İngilizce fragmanları.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
         color: "bg-green-300",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "parmenides",
@@ -364,7 +386,7 @@ export const philosophers: Philosopher[] = [
     birthYear: -515,
     deathYear: -460,
     period: "Antik Çağ",
-    movement: "Varlık Felsefesi, Rasyonalizm, Determinizm",
+    movement: "Varlık Felsefesi, Rasyonalizm",
     school: "Elea Okulu",
     nationality: "Yunan",
     image: "/img/parmenides.jpg",
@@ -374,7 +396,7 @@ export const philosophers: Philosopher[] = [
       "Varlık ve yokluk",
       "Değişim ve sabitlik",
       "Varlık, değişmezdir",
-      "Varlık var olandır, hiçlik ya da var olamayan ise var değildir."
+      "Varlık var olandır, hiçlik ya da var olamayan ise var değildir.",
     ],
     influenced: [],
     influence: ["Heraklitos", "Pisagor", "Ksenofanes"],
@@ -382,10 +404,11 @@ export const philosophers: Philosopher[] = [
       {
         title: "Doğa Üzerine",
         image: "/img/parmenides.jpg",
-        description: "Günümüze sadece Fragmanlar olarak İngilizce eserleri ulaşmıştır."
-      }
+        description:
+          "Günümüze sadece Fragmanlar olarak İngilizce eserleri ulaşmıştır.",
+      },
     ],
-    icons: []
+    icons: [],
   },
   {
     id: "anaksagoras",
@@ -400,12 +423,18 @@ export const philosophers: Philosopher[] = [
     bio: "Anaksagoras, Clazomenae'de doğmuş bir Yunan filozofudur. Felsefesinde evrenin temel maddesini akıl olarak tanımlamıştır.",
     keyIdeas: [
       "Akıl, evrenin temel maddesidir.",
-      "Evrenin düzeni ve akıl tarafından yönetildiği"
+      "Evrenin düzeni ve akıl tarafından yönetildiği",
     ],
     influenced: [],
     influence: [],
-    book: [],
-    icons: []
+    book: [
+      {
+        title: "Fragmanlar",
+        image: "/img/anaksagoras.jpg",
+        description: "",
+      }
+    ],
+    icons: [],
   },
   {
     id: "leukippos",
@@ -418,21 +447,17 @@ export const philosophers: Philosopher[] = [
     nationality: "Yunan",
     image: "/img/leukippos.jpg",
     bio: "Leukippos, Antik Yunan filozofu ve Atomculuk felsefesinin kurucusu olarak kabul edilir. Atom kavramını geliştirmiştir.",
-    keyIdeas: [
-      "Atomculuk",
-      "Evrenin sonsuzluğu",
-      "Rastlantısal evrim"
-    ],
+    keyIdeas: ["Atomculuk", "Evrenin sonsuzluğu", "Rastlantısal evrim"],
     influenced: [],
     influence: ["Demokritos", "Epicurus", "Lucretius"],
     book: [
       {
         title: "Atomcu Felsefe Fragmanları",
         image: "/img/leukippos.jpg",
-        description: "Demokritos ile Leukippos'un Atomcu Felsefe Fragmanları."
-      }
+        description: "Demokritos ile Leukippos'un Atomcu Felsefe Fragmanları.",
+      },
     ],
-    icons: []
+    icons: [],
   },
   {
     id: "pherekydes",
@@ -449,7 +474,7 @@ export const philosophers: Philosopher[] = [
     influenced: [],
     influence: [],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "empedokles",
@@ -462,15 +487,11 @@ export const philosophers: Philosopher[] = [
     nationality: "Yunan",
     image: "/img/empedokles.jpg",
     bio: "Empedokles, Antik Yunan filozofu ve doğa bilimcidir. Dört element teorisini geliştirmiştir. Evrenin temel maddesini dört element olarak tanımlamıştır.",
-    keyIdeas: [
-      "Dört element teorisi",
-      "Sevgi ve nefret",
-      "Evrenin sonsuzluğu"
-    ],
+    keyIdeas: ["Dört element teorisi", "Sevgi ve nefret", "Evrenin sonsuzluğu"],
     influenced: [],
     influence: ["Heraklitos", "Pisagor", "Parmenides", "Ksenofanes"],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "protagoras",
@@ -483,15 +504,11 @@ export const philosophers: Philosopher[] = [
     nationality: "Yunan",
     image: "/img/protagoras.jpg",
     bio: "Protagoras, Yunan sofistlerinden biridir. İnsanın ölçüsü üzerine düşünceleriyle tanınır. 'İnsan her şeyin ölçüsüdür' sözüyle ünlüdür.",
-    keyIdeas: [
-      "İnsanın ölçüsü",
-      "Bilgi ve gerçeklik",
-      "İyi ve kötü"
-    ],
+    keyIdeas: ["İnsanın ölçüsü", "Bilgi ve gerçeklik", "İyi ve kötü"],
     influenced: [],
     influence: ["Parmenides", "Demokritos", "Elealı Zenon"],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "gorgias",
@@ -511,7 +528,7 @@ export const philosophers: Philosopher[] = [
     influenced: [],
     influence: ["Empedokles", "Parmenides", "Elealı Zenon"],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "socrates",
@@ -528,17 +545,47 @@ export const philosophers: Philosopher[] = [
       "Bilmediğini bilmek",
       "Sokratik yöntem",
       "Erdem bilgidir",
-      "Kendini bil"
+      "Kendini bil",
     ],
     influenced: [],
     influence: [],
     book: [],
-    icons: []
+    icons: [],
   },
-
-
-
-
+  {
+    id: "ksenophon",
+    name: "Ksenophon",
+    birthYear: -431,
+    deathYear: -354,
+    period: "Antik Çağ",
+    movement: "Klasik Yunan Felsefesi",
+    school: "Klasik Yunan Okulu",
+    nationality: "Yunan",
+    image: "/img/ksenofon.jpg",
+    bio: "Ksenophon, Atina'da doğmuş bir Antik Yunan yazar ve askerdir. Sokrates'in öğrencilerinden biridir.",
+    keyIdeas: [],
+    influenced: [],
+    influence: [
+      "Sokrates",
+    ],
+    book: [
+      {
+        title: "Anabasis",
+        image: "/img/ksenofon.jpg",
+        description: "",
+      }
+    ],
+    icons: [
+      {
+        icon: TbLetterSSmall,
+        color: "bg-yellow-300",
+      },
+      {
+        icon: BookAIcon,
+        color: "bg-green-300",
+      }
+    ],
+  },
   {
     id: "demokritos",
     name: "Demokritos",
@@ -550,15 +597,11 @@ export const philosophers: Philosopher[] = [
     nationality: "Yunan",
     image: "/img/demokritos.jpg",
     bio: "Demokritos, Antik Yunan filozofu ve doğa bilimcidir. Atomculuk felsefesinin kurucusu olarak kabul edilir. Atom kavramını geliştirmiştir.",
-    keyIdeas: [
-      "Atomculuk",
-      "Evrenin sonsuzluğu",
-      "Rastlantısal evrim"
-    ],
+    keyIdeas: ["Atomculuk", "Evrenin sonsuzluğu", "Rastlantısal evrim"],
     influenced: [],
     influence: ["Leukippos", "Parmenides", "Samoslu Melissus"],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "theophrastus",
@@ -575,7 +618,7 @@ export const philosophers: Philosopher[] = [
     influenced: [],
     influence: [],
     book: [],
-    icons: []
+    icons: [],
   },
   {
     id: "melissus",
@@ -589,49 +632,76 @@ export const philosophers: Philosopher[] = [
     image: "/img/melissus.jpg",
     bio: "Melissus, Elea Okulu'ndan bir Yunan filozofudur. Parmenides'in öğrencisidir. Varlık ve yokluk, değişim ve sabitlik gibi konular üzerine düşünmüş ve varlık felsefesinin temellerini atmıştır.",
     keyIdeas: [
-      "Oluş bir kuruntuysa, evrenin nasıl yaratıldığını araştırmak boşuna,"
+      "Oluş bir kuruntuysa, evrenin nasıl yaratıldığını araştırmak boşuna,",
     ],
     influenced: [],
     influence: ["Parmenides", "Elealı Zeno"],
     book: [],
-    icons: []
+    icons: [],
   },
+  {
+    id: "eleali-zenon",
+    name: "Elealı Zenon",
+    birthYear: -495,
+    deathYear: -430,
+    period: "Antik Çağ",
+    movement: "Elea Okulu",
+    school: "Elea Okulu",
+    nationality: "Yunan",
+    image: "/img/eleali-zenon.jpg",
+    bio: "Elealı Zenon, Antik Yunan filozofudur. Parmenides'in öğrencisidir. Varlık ve yokluk, değişim ve sabitlik gibi konular üzerine düşünmüş ve varlık felsefesinin temellerini atmıştır.",
+    keyIdeas: [
+      "Oluş bir kuruntuysa, evrenin nasıl yaratıldığını araştırmak boşuna,",
+    ],
+    influenced: ["Platon", "Aristoteles", "Gorgias"],
+    influence: ["Parmenides"],
+  },
+  {
+    id: "antiphon",
+    name: "Antiphon",
+    birthYear: -480,
+    deathYear: -411,
+    period: "Antik Çağ",
+    movement: "Sofistler",
+    school: "Sofizm Okulu",
+    nationality: "Rhamnous",
+    image: "/img/antiphon.jpg",
+    bio: "Antiphon, Yunan sofistlerinden biridir. Retorik ve dil felsefesi üzerine çalışmıştır. İkna ve inandırma sanatı üzerine düşünceleriyle tanınır.",
+    keyIdeas: [
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ],
+    influenced: [],
+    influence: [],
+    book: [
+      {
+        title: "Hitabet Ve Belagat Üzerine Söylevler",
+        image: "/img/antiphon.jpg",
+        description: "",
+      }
+    ],
+    icons: [],
+  },
+  {
+    id: "apollonyali-diyojen",
+    name: "Apollonyali Diyojen",
+    birthYear: -412,
+    deathYear: -323,
+    period: "Antik Çağ",
+    movement: "Sokrates Öncesi Felsefe",
+    school: "",
+    nationality: "Apollonya",
+    image: "/img/apollonyali-diyojen.jpg",
+    bio: "Apollonyalı Diogenes genellikle Sokrates öncesi Yunan filozoflarının sonuncusu olarak kabul edilir.  Havanın tüm diğer maddelerin türetildiği tek varlık kaynağı olduğuna ve ilkel bir güç olarak hem ilahi hem de zeki olduğuna inanıyordu. Ayrıca insan vücudundaki kan damarlarının organizasyonunun bir tanımını yaptı. Fikirleri oyun yazarı Aristophanes tarafından parodileştirildi. Doğa filozoflarının sonuncusudur. Bir materyalist monist olarak, Anaksimenes ve Heraklitos gibi önceki monistlerin çalışmalarını Anaksagoras ve Empedokles'in çoğulculuğuyla sentezledi ve havanın, zekayla da eşitlediği ilahi bir kozmik düzenleme ilkesi olduğunu savundu.",
+    keyIdeas: [
+      "Hava, evrenin temel maddesidir",
+      "İlkel bir güç olarak hem ilahi hem de zeki",
+      "İnsan vücudundaki kan damarlarının organizasyonunun bir tanımını yaptı"
+    ],
+    influenced: [],
+    influence: [],
+    book: [],
+    icons: [],
+  },
   {
     id: "antisthenes",
     name: "Antisthenes",
@@ -646,7 +716,7 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Doğal yaşam tarzı",
       "Mutluluk, erdemli yaşamda bulunur",
-      "İhtiyaçlarla sınırlı yaşam"
+      "İhtiyaçlarla sınırlı yaşam",
     ],
     influenced: ["Diyojen", "Krates", "Kbrıslı Zenon"],
     influence: ["Gorgias", "Sokrates"],
@@ -654,7 +724,7 @@ export const philosophers: Philosopher[] = [
       {
         title: "Kinik Felsefe Fragmanları",
         image: "/book/kinik_felsefe_fragmanlari.jpg",
-        description: "Diyojen ve Antisthenes'in Kinik Felsefe Fragmanları"
+        description: "Diyojen ve Antisthenes'in Kinik Felsefe Fragmanları",
       },
     ],
     icons: [
@@ -665,8 +735,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: BookAIcon,
         color: "bg-green-300",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "aristippos",
@@ -682,12 +752,17 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Hazcılık",
       "Mutluluk, hazda bulunur",
-      "İhtiyaçlarla sınırlı yaşam"
+      "İhtiyaçlarla sınırlı yaşam",
     ],
     influenced: [],
     influence: ["Sokrates"],
     book: [],
-    icons: []
+    icons: [
+      {
+        icon: TbLetterSSmall,
+        color: "bg-yellow-300",
+      },
+    ],
   },
   {
     id: "platon",
@@ -703,72 +778,80 @@ export const philosophers: Philosopher[] = [
       "İdealar kuramı",
       "Mağara alegorisi",
       "İdeal devlet",
-      "Ruh kuramı"
+      "Ruh kuramı",
     ],
-    influenced: [],
-    influence: [],
+    influenced: ["Aristoteles", "Cicero", "Seneca"],
+    influence: [
+      "Sokrates",
+      "Pisagor",
+      "Heraklitos",
+      "Parmenides",
+      "Demokritos",
+      "Homeros",
+      "Elealı Zenon",
+      "Protagoras",
+    ],
     book: [
       {
-        title: "Alkibiades", 
+        title: "Alkibiades",
         image: "/book/platon_alkibiades.jpeg",
-        description: ""
+        description: "",
       },
       {
         title: "Büyük Hippias",
         image: "/book/platon_buyuk_hippias.jpeg",
-        description: ""
+        description: "",
       },
       {
         title: "Devlet Adamı",
         image: "/book/platon_devlet_adami.jpeg",
-        description: ""
+        description: "",
       },
       {
         title: "Devlet",
         image: "/book/platon_devlet.jpeg",
-        description: ""
+        description: "",
       },
       {
         title: "Euthydemos",
         image: "/book/platon_euthydemos.jpg",
-        description: ""
+        description: "",
       },
       {
         title: "Euthyphron",
         image: "/book/platon_euthyphron.jpg",
-        description: ""
+        description: "",
       },
       {
         title: "Gorgias",
         image: "/book/platon_gorgias.jpeg",
-        description: ""
+        description: "",
       },
       {
         title: "Hipparkos ",
         image: "/book/platon_hipparkos.jpg",
-        description: ""
-      },      
+        description: "",
+      },
       {
         title: "İon",
         image: "/book/platon_ion.jpg",
-        description: ""
+        description: "",
       },
       {
         title: "Kratylos",
         image: "/book/platon_kratylos.jpg",
-        description: ""
+        description: "",
       },
       {
         title: "Kriton",
         image: "/book/platon_kriton.jpg",
-        description: ""
+        description: "",
       },
       {
         title: "Küçük Hippias",
         image: "/book/platon_kucuk_hippias.jpg",
-        description: ""
+        description: "",
       },
-
     ],
     icons: [
       {
@@ -779,7 +862,7 @@ export const philosophers: Philosopher[] = [
         icon: TbLetterSSmall,
         color: "bg-yellow-300",
       },
-    ]
+    ],
   },
   {
     id: "diyojen",
@@ -787,16 +870,22 @@ export const philosophers: Philosopher[] = [
     birthYear: -412,
     deathYear: -323,
     period: "Antik Çağ",
-    movement : "Kinikler",
+    movement: "Kinikler",
     nationality: "Sinop",
     image: "/img/diyojen.jpg",
     bio: "Diyojen, Sinoplu bir filozof ve Kinikler okulunun kurucusudur. Kinik felsefesini yaşayarak öğreten ilk filozoftur. Atina'da felsefi düşüncelerini sergilemiştir.",
     keyIdeas: [
       "Doğal yaşam tarzı",
       "Mutluluk, erdemli yaşamda bulunur",
-      "İhtiyaçlarla sınırlı yaşam"
+      "İhtiyaçlarla sınırlı yaşam",
     ],
-    influenced: [],
+    influenced: [
+      "Krates",
+      "Kbrıslı Zenon",
+      "Friedrich Nietzsche",
+      "Michel Foucault",
+      "Jean-Paul Sartre",
+    ],
     influence: ["Antisthenes"],
     book: [],
     icons: [
@@ -804,7 +893,7 @@ export const philosophers: Philosopher[] = [
         icon: BookAIcon,
         color: "bg-green-300",
       },
-    ]
+    ],
   },
   {
     id: "aristotle",
@@ -817,31 +906,28 @@ export const philosophers: Philosopher[] = [
     nationality: "Yunan",
     image: "/img/aristoteles.jpg",
     bio: "Aristoteles, Antik Yunan filozofu, Platon'un öğrencisi ve Büyük İskender'in eğitmenidir. Mantık, fizik, metafizik, etik, politika, biyoloji ve edebiyat gibi birçok alanda eserler vermiştir. Sistematik düşüncesiyle bilinir.",
-    keyIdeas: [
-      "Madde ve form",
-      "Dört neden",
-      "Altın orta",
-      "Mantık sistemi"
-    ],
+    keyIdeas: ["Madde ve form", "Dört neden", "Altın orta", "Mantık sistemi"],
     influenced: [],
-    influence: [],
+    influence: ["Platon", "Sokrates", "Heraklitos", "Demokritos"],
     book: [
       {
         title: "Metafizik",
         image: "/img/aristoteles.jpg",
-        description: "Aristoteles'in Metafizik adlı eseri, varlık felsefesi üzerine düşüncelerini içerir."
+        description:
+          "Aristoteles'in Metafizik adlı eseri, varlık felsefesi üzerine düşüncelerini içerir.",
       },
       {
         title: "Nikomakhos'a Etik",
         image: "/img/aristoteles.jpg",
-        description: "Aristoteles'in etik felsefesi üzerine yazdığı eserlerden biridir."
+        description:
+          "Aristoteles'in etik felsefesi üzerine yazdığı eserlerden biridir.",
       },
       {
         title: "Politika",
         image: "/img/aristoteles.jpg",
-        description: "Aristoteles'in politik felsefesi üzerine yazdığı eserlerden biridir."
+        description:
+          "Aristoteles'in politik felsefesi üzerine yazdığı eserlerden biridir.",
       },
-
     ],
     icons: [
       {
@@ -852,7 +938,46 @@ export const philosophers: Philosopher[] = [
         icon: TbLetterSSmall,
         color: "bg-yellow-300",
       },
-    ]
+    ],
+  },
+  {
+    id: "stilpon",
+    name: "Stilpon",
+    birthYear: -360,
+    deathYear: -280,
+    period: "Antik Çağ",
+    movement: "Megarikler",
+    school: "Megara Okulu",
+    nationality: "Megara",
+    image: "/img/stilpon.jpg",
+    bio: "Stilpon, Megara Okulu'ndan bir Yunan filozofudur. Megara okulu ile Kinikliği birleştirmiş ve Stoacılığı da belli şekillerde etkilemiş olan Stilpon'un oğlu Bryson da, kuşkuculuğun kurucusu olan Phyrhon'un öğretmenlerinden biri olmuştur.",
+    keyIdeas: [
+      "Varlık ve yokluk",
+      "Değişim ve sabitlik",
+      "Varlık, değişmezdir",
+      "Varlık var olandır, hiçlik ya da var olamayan ise var değildir.",
+    ],
+    influenced: ["Pyrrhon", "Bryson"],
+    influence: [],
+    book: [],
+    icons: [],
+  },
+  {
+    id: "kibrisli-zenon",
+    name: "Kıbrıslı Zenon",
+    birthYear: -334,
+    deathYear: -262,
+    period: "Antik Çağ",
+    movement: "Stoacılar",
+    school: "Stoa Okulu",
+    nationality: "Kıbrıs",
+    image: "/img/kibrisli-zenon.jpg",
+    bio: "Kıbrıslı Zenon, Antik Yunan Stoacı filozofudur. Stoacı felsefenin kurucusu olarak kabul edilir. Mantık ve etik üzerine düşünceleriyle tanınır.",
+    keyIdeas: ["Mantık ve etik", "Mantık sistemi", "Erdem ve erdemli yaşam"],
+    influenced: ["Epiktetos", "Marcus Aurelius"],
+    influence: ["Platon", "Heraklitos", "Krates"],
+    book: [],
+    icons: [],
   },
   {
     id: "epikur",
@@ -868,34 +993,53 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Mutluluk, hazda bulunur",
       "Hazcılık",
-      "Dostluk ve dostluk ilişkileri"
+      "Dostluk ve dostluk ilişkileri",
     ],
     influenced: [],
-    influence: [],
-    book: [
-    ],
-    icons: []
+    influence: ["Demokritos", "Aristippos"],
+    book: [],
+    icons: [],
   },
   {
     id: "hrisippos",
     name: "Hrisippos",
-    birthYear: -271,
-    deathYear: -180,
+    birthYear: -279,
+    deathYear: -206,
     period: "Antik Çağ",
     movement: "Stoacılar",
     nationality: "Yunan",
     image: "/img/hrisippos.jpg",
     bio: "Hrisippos, Antik Yunan Stoacı filozofudur. Stoacı felsefenin en önemli temsilcilerinden biridir. Mantık ve etik üzerine düşünceleriyle tanınır.",
+    keyIdeas: ["Mantık ve etik", "Mantık sistemi", "Erdem ve erdemli yaşam"],
+    influenced: [],
+    influence: ["Platon", "Aristoteles", "Kıbrıslı Zenon"],
+    book: [],
+    icons: [],
+  },
+  {
+    id: "cicero",
+    name: "Marcus Tullius Cicero",
+    birthYear: -106,
+    deathYear: -43,
+    period: "Antik Çağ",
+    movement: "Roma Felsefesi",
+    school: "",
+    nationality: "Roma",
+    image: "/img/cicero.jpg",
+    bio: "Marcus Tullius Cicero, Roma Cumhuriyeti döneminde yaşamış bir devlet adamı, hatip, avukat ve filozoftur. Roma'nın en büyük hatiplerinden biri olarak kabul edilir. Felsefe alanında eserler vermiştir.",
     keyIdeas: [
-      "Mantık ve etik",
-      "Mantık sistemi",
-      "Erdem ve erdemli yaşam"
+      "Hukuk ve adalet",
+      "Erdem ve erdemli yaşam",
+      "Politika ve devlet",
     ],
     influenced: [],
-    influence: [],
-    book: [],
-    icons: []
+    influence: ["Platon", "Phaedros", "Diodotos", "Philon"],
   },
+
+
+  // genç cato ve yaşlı cato eklenecek
+
+
   {
     id: "epiktetos",
     name: "Epiktetos",
@@ -909,24 +1053,43 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Kendi iç huzurunu bul",
       "Kendi içsel özgürlüğünü kazan",
-      "Kendi içsel huzurunu koru"
+      "Kendi içsel huzurunu koru",
     ],
     influenced: [],
-    influence: [],
+    influence: ["Sokrates", "Kıbrıslı Zenon", "Diyojen"],
     book: [
       {
-        "title": "Enkheiridion",
-        "image": "/img/epiktetos.jpg",
-        description: "Epiktetos'un Enkheiridion adlı eseri, Stoacı felsefenin temel prensiplerini içerir."
-      }
+        title: "Enkheiridion",
+        image: "/img/epiktetos.jpg",
+        description:
+          "Epiktetos'un Enkheiridion adlı eseri, Stoacı felsefenin temel prensiplerini içerir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
         color: "bg-green-300",
       },
-
-    ]
+    ],
+  },
+  {
+    id: "seneca",
+    name: "Seneca",
+    birthYear: 4,
+    deathYear: 65,
+    period: "Antik Çağ",
+    movement: "Stoacılar",
+    school: "Stoa Okulu",
+    nationality: "Roma",
+    image: "/img/seneca.jpg",
+    bio: "Seneca, Antik Roma Stoacı filozofudur. Stoacı felsefenin en önemli temsilcilerinden biridir. Etik ve politika üzerine düşünceleriyle tanınır.",
+    keyIdeas: [
+      "Erdemli yaşam",
+      "İç huzur ve özgürlük",
+      "Kendi içsel huzurunu koru",
+    ],
+    influenced: ["Marcus Aurelius"],
+    influence: ["Sokrates", "Platon", "Kıbrıslı Zenon"],
   },
   {
     id: "marcus-aurelius",
@@ -937,32 +1100,29 @@ export const philosophers: Philosopher[] = [
     movement: "Stoacılar",
     nationality: "Roma",
     image: "/img/aurelius.jpg",
-    bio: "Marcus Aurelius, Roma İmparatorluğu'nun son büyük Stoacı filozofudur. Meditations adlı eseri ile tanınır. İmparatorluk döneminde yaşamıştır.",
+    bio: "Marcus Aurelius, Roma İmparatorluğu'nun son büyük Stoacı filozofudur. Meditasyonlar adlı eseri ile tanınır. İmparatorluk döneminde yaşamıştır.",
     keyIdeas: [
       "Kendini kontrol et",
       "Kendi iç huzurunu bul",
-      "Kendine yönelik çalışma"
+      "Kendine yönelik çalışma",
     ],
     influenced: [],
-    influence: [],
+    influence: ["Epiktetos", "Kıbrıslı Zenon", "Seneca"],
     book: [
       {
         title: "Meditasyonlar",
         image: "/img/aurelius.jpg",
-        description: "Marcus Aurelius'un Meditations adlı eseri, Stoacı felsefenin temel prensiplerini içerir."
-      }
+        description:
+          "Marcus Aurelius'un Meditations adlı eseri, Stoacı felsefenin temel prensiplerini içerir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
         color: "bg-green-300",
-      }
-    ]
+      },
+    ],
   },
-
-
-
-
   {
     id: "boethius",
     name: "Boethius",
@@ -973,21 +1133,24 @@ export const philosophers: Philosopher[] = [
     nationality: "Roma",
     image: "/img/boethius.jpg",
     bio: "Boethius, Roma İmparatorluğu'nun son dönemlerinde yaşamış bir filozof ve devlet adamıdır. Felsefe ve teoloji alanlarında eserler vermiştir.",
-    keyIdeas: [
-      "Kader ve özgürlük",
-      "Tanrı'nın varlığı",
-      "İyi ve kötü"
-    ],
+    keyIdeas: ["Kader ve özgürlük", "Tanrı'nın varlığı", "İyi ve kötü"],
     influenced: [],
     influence: [],
     book: [
-
+      {
+        title: "Felsefenin Tesellisi",
+        image: "/img/boethius.jpg",
+        description:
+          "Boethius'un en ünlü eserlerinden biri olan Felsefenin Tesellisi, felsefi ve teolojik içerikli bir eserdir.",
+      },
     ],
-    icons: []
+    icons: [
+      {
+        icon: BookAIcon,
+        color: "bg-green-300",
+      },
+    ],
   },
-
-
-
 
 
 
@@ -1015,7 +1178,7 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Sanat ve bilim bir bütündür",
       "Doğayı gözlemleyerek öğren",
-      "Bilgiye sınır koyma"
+      "Bilgiye sınır koyma",
     ],
     influenced: ["Michelangelo", "Galileo Galilei", "Francis Bacon"],
     influence: ["Platon", "Aristoteles"],
@@ -1023,9 +1186,9 @@ export const philosophers: Philosopher[] = [
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-blue-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "niccolo-machiavelli",
@@ -1040,17 +1203,21 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Amaca ulaşmak için her yol mubahtır",
       "Gerçekçi siyaset analizi",
-      "İktidarın doğası"
+      "İktidarın doğası",
     ],
-    influenced: ["Thomas Hobbes", "Jean-Jacques Rousseau", "Friedrich Nietzsche"],
+    influenced: [
+      "Thomas Hobbes",
+      "Jean-Jacques Rousseau",
+      "Friedrich Nietzsche",
+    ],
     influence: ["Platon", "Aristoteles", "Cicero"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-red-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "francis-bacon",
@@ -1062,11 +1229,7 @@ export const philosophers: Philosopher[] = [
     nationality: "İngiliz",
     image: "/img/bacon.jpg",
     bio: "Francis Bacon, bilimsel yöntemin öncülerindendir. Deney ve gözleme dayalı bilgi anlayışını savunmuştur. 'Novum Organum' adlı eseriyle bilim felsefesine katkıda bulunmuştur.",
-    keyIdeas: [
-      "Bilimsel yöntem",
-      "Deney ve gözlem",
-      "Bilginin gücü"
-    ],
+    keyIdeas: ["Bilimsel yöntem", "Deney ve gözlem", "Bilginin gücü"],
     influenced: ["John Locke", "Isaac Newton", "René Descartes"],
     influence: ["Aristoteles", "Platon"],
     book: [],
@@ -1074,8 +1237,8 @@ export const philosophers: Philosopher[] = [
       {
         icon: BookAIcon,
         color: "bg-green-300",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "voltaire",
@@ -1087,20 +1250,16 @@ export const philosophers: Philosopher[] = [
     nationality: "Fransız",
     image: "/img/voltaire.jpg",
     bio: "Voltaire, Aydınlanma döneminin önde gelen düşünürlerindendir. Din, özgürlük ve insan hakları üzerine yazılar yazmıştır. Eleştirel düşünce ve hoşgörüyü savunmuştur.",
-    keyIdeas: [
-      "Hoşgörü",
-      "Eleştirel düşünce",
-      "Din ve özgürlük"
-    ],
+    keyIdeas: ["Hoşgörü", "Eleştirel düşünce", "Din ve özgürlük"],
     influenced: ["Jean-Jacques Rousseau", "Thomas Paine", "Immanuel Kant"],
     influence: ["John Locke", "Montaigne"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-yellow-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "david-hume",
@@ -1112,20 +1271,16 @@ export const philosophers: Philosopher[] = [
     nationality: "İskoç",
     image: "/img/hume.jpg",
     bio: "David Hume, empirizmin önemli temsilcilerindendir. Bilginin deneyimden geldiğini savunmuş ve nedensellik kavramını sorgulamıştır. Ahlak ve din felsefesi üzerine de çalışmalar yapmıştır.",
-    keyIdeas: [
-      "Empirizm",
-      "Nedensellik eleştirisi",
-      "Ahlak felsefesi"
-    ],
+    keyIdeas: ["Empirizm", "Nedensellik eleştirisi", "Ahlak felsefesi"],
     influenced: ["Immanuel Kant", "Adam Smith", "John Stuart Mill"],
     influence: ["John Locke", "George Berkeley"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-purple-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "denis-diderot",
@@ -1137,20 +1292,16 @@ export const philosophers: Philosopher[] = [
     nationality: "Fransız",
     image: "/img/diderot.jpg",
     bio: "Denis Diderot, Aydınlanma döneminin önemli düşünürlerindendir. 'Ansiklopedi' projesiyle bilgiyi yaymayı amaçlamıştır. Materyalist ve ateist görüşleriyle tanınır.",
-    keyIdeas: [
-      "Ansiklopedi projesi",
-      "Materyalizm",
-      "Ateizm"
-    ],
+    keyIdeas: ["Ansiklopedi projesi", "Materyalizm", "Ateizm"],
     influenced: ["Jean-Jacques Rousseau", "Voltaire", "Karl Marx"],
     influence: ["John Locke", "Francis Bacon"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-indigo-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "jean-jacques-rousseau",
@@ -1162,20 +1313,16 @@ export const philosophers: Philosopher[] = [
     nationality: "Fransız",
     image: "/img/rousseau.jpg",
     bio: "Jean-Jacques Rousseau, toplum sözleşmesi teorisiyle tanınan bir filozoftur. İnsan doğası, eğitim ve siyaset üzerine önemli eserler vermiştir. 'Toplum Sözleşmesi' adlı eseri modern demokrasi teorisine katkıda bulunmuştur.",
-    keyIdeas: [
-      "Toplum sözleşmesi",
-      "İnsan doğası",
-      "Eğitim felsefesi"
-    ],
+    keyIdeas: ["Toplum sözleşmesi", "İnsan doğası", "Eğitim felsefesi"],
     influenced: ["Immanuel Kant", "Karl Marx", "Friedrich Nietzsche"],
     influence: ["John Locke", "Thomas Hobbes"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-pink-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "john-locke",
@@ -1187,20 +1334,16 @@ export const philosophers: Philosopher[] = [
     nationality: "İngiliz",
     image: "/img/locke.jpg",
     bio: "John Locke, empirizmin kurucularındandır. Bilginin deneyimden geldiğini savunmuştur. Siyaset felsefesinde 'doğal haklar' ve 'toplum sözleşmesi' kavramlarını geliştirmiştir.",
-    keyIdeas: [
-      "Empirizm",
-      "Doğal haklar",
-      "Toplum sözleşmesi"
-    ],
+    keyIdeas: ["Empirizm", "Doğal haklar", "Toplum sözleşmesi"],
     influenced: ["Voltaire", "Jean-Jacques Rousseau", "David Hume"],
     influence: ["Aristoteles", "Thomas Hobbes"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-blue-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "baruch-spinoza",
@@ -1212,20 +1355,20 @@ export const philosophers: Philosopher[] = [
     nationality: "Hollandalı",
     image: "/img/spinoza.jpg",
     bio: "Baruch Spinoza, rasyonalist bir filozoftur. Tanrı ve doğa arasında bir birlik olduğunu savunmuştur. 'Etika' adlı eseriyle etik ve metafizik üzerine önemli katkılar yapmıştır.",
-    keyIdeas: [
-      "Rasyonalizm",
-      "Tanrı ve doğa birliği",
-      "Etik"
+    keyIdeas: ["Rasyonalizm", "Tanrı ve doğa birliği", "Etik"],
+    influenced: [
+      "Gottfried Wilhelm Leibniz",
+      "Friedrich Nietzsche",
+      "Albert Einstein",
     ],
-    influenced: ["Gottfried Wilhelm Leibniz", "Friedrich Nietzsche", "Albert Einstein"],
     influence: ["René Descartes", "Platon"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
         color: "bg-green-300",
-      }
-    ]
+      },
+    ],
   },
   {
     id: "blaise-pascal",
@@ -1237,20 +1380,16 @@ export const philosophers: Philosopher[] = [
     nationality: "Fransız",
     image: "/img/pascal.jpg",
     bio: "Blaise Pascal, matematik ve felsefe alanlarında önemli katkılar yapmıştır. 'Pascal'ın Bahsi' adlı argümanıyla tanınır. Din ve bilim arasındaki ilişki üzerine düşünceler geliştirmiştir.",
-    keyIdeas: [
-      "Pascal'ın Bahsi",
-      "Matematiksel düşünce",
-      "Din ve bilim"
-    ],
+    keyIdeas: ["Pascal'ın Bahsi", "Matematiksel düşünce", "Din ve bilim"],
     influenced: ["René Descartes", "Voltaire", "Søren Kierkegaard"],
     influence: ["Augustinus", "Montaigne"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-red-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "michel-de-montaigne",
@@ -1262,22 +1401,17 @@ export const philosophers: Philosopher[] = [
     nationality: "Fransız",
     image: "/img/montaigne.jpg",
     bio: "Michel de Montaigne, deneme türünün kurucusu olarak kabul edilir. İnsan doğası, ahlak ve toplum üzerine düşüncelerini 'Denemeler' adlı eserinde toplamıştır. Şüpheci bir yaklaşım benimsemiştir.",
-    keyIdeas: [
-      "Deneme türü",
-      "Şüphecilik",
-      "İnsan doğası"
-    ],
+    keyIdeas: ["Deneme türü", "Şüphecilik", "İnsan doğası"],
     influenced: ["René Descartes", "Blaise Pascal", "Voltaire"],
     influence: ["Seneca", "Plutarkhos"],
     book: [],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-yellow-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
-
 
   {
     id: "rene-descartes",
@@ -1289,26 +1423,23 @@ export const philosophers: Philosopher[] = [
     nationality: "Fransa",
     image: "/img/descartes.jpg",
     bio: "René Descartes, modern felsefenin babası olarak bilinir. 'Düşünüyorum, öyleyse varım' sözüyle ünlüdür.",
-    keyIdeas: [
-      "Metodik şüphe",
-      "Düşünüyorum, öyleyse varım",
-      "Akılcılık"
-    ],
+    keyIdeas: ["Metodik şüphe", "Düşünüyorum, öyleyse varım", "Akılcılık"],
     influenced: [],
     influence: [],
     book: [
       {
         title: "Meditasyonlar",
         image: "/img/descartes.jpg",
-        description: "Descartes'in metafizik ve epistemoloji üzerine yazdığı felsefi eseridir."
-      }
+        description:
+          "Descartes'in metafizik ve epistemoloji üzerine yazdığı felsefi eseridir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-blue-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "immanuel-kant",
@@ -1320,26 +1451,23 @@ export const philosophers: Philosopher[] = [
     nationality: "Almanya",
     image: "/img/kant.jpg",
     bio: "Immanuel Kant, modern felsefenin en önemli figürlerinden biridir. Saf Aklın Eleştirisi adlı eseri ile tanınır.",
-    keyIdeas: [
-      "A priori bilgi",
-      "Transandantal idealizm",
-      "Ahlak yasası"
-    ],
+    keyIdeas: ["A priori bilgi", "Transandantal idealizm", "Ahlak yasası"],
     influenced: [],
     influence: [],
     book: [
       {
         title: "Saf Aklın Eleştirisi",
         image: "/img/kant.jpg",
-        description: "Kant'ın bilgi ve metafizik üzerine yazdığı en ünlü eseridir."
-      }
+        description:
+          "Kant'ın bilgi ve metafizik üzerine yazdığı en ünlü eseridir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-yellow-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "arthur-schopenhauer",
@@ -1351,26 +1479,22 @@ export const philosophers: Philosopher[] = [
     nationality: "Almanya",
     image: "/img/arthur-schopenhauer.jpg",
     bio: "Arthur Schopenhauer, irade ve temsil kavramları üzerine yoğunlaşan filozoflardan biridir.",
-    keyIdeas: [
-      "İrade ve temsil",
-      "Hayat acıdır",
-      "Sanat ve estetik"
-    ],
+    keyIdeas: ["İrade ve temsil", "Hayat acıdır", "Sanat ve estetik"],
     influenced: [],
     influence: [],
     book: [
       {
         title: "İrade ve Tasarım Olarak Dünya",
         image: "/img/schopenhauer.jpg",
-        description: "Schopenhauer'in en önemli felsefi eseridir."
-      }
+        description: "Schopenhauer'in en önemli felsefi eseridir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-red-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "friedrich-nietzsche",
@@ -1382,26 +1506,22 @@ export const philosophers: Philosopher[] = [
     nationality: "Almanya",
     image: "/img/nietzsche.jpg",
     bio: "Friedrich Nietzsche, nihilizm ve güç istenci kavramlarıyla tanınan filozoflardan biridir.",
-    keyIdeas: [
-      "Tanrı öldü",
-      "Güç istenci",
-      "Üst insan"
-    ],
+    keyIdeas: ["Tanrı öldü", "Güç istenci", "Üst insan"],
     influenced: [],
     influence: [],
     book: [
       {
         title: "Böyle Buyurdu Zerdüşt",
         image: "/img/nietzsche.jpg",
-        description: "Nietzsche'nin felsefi ve edebi eseridir."
-      }
+        description: "Nietzsche'nin felsefi ve edebi eseridir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-purple-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "jean-paul-sartre",
@@ -1416,7 +1536,7 @@ export const philosophers: Philosopher[] = [
     keyIdeas: [
       "Varoluş özden önce gelir",
       "İnsan özgürlüğe mahkumdur",
-      "Kendini gerçekleştirme"
+      "Kendini gerçekleştirme",
     ],
     influenced: [],
     influence: [],
@@ -1424,15 +1544,16 @@ export const philosophers: Philosopher[] = [
       {
         title: "Varlık ve Hiçlik",
         image: "/img/sartre.jpg",
-        description: "Sartre'ın varoluşçuluk üzerine yazdığı en önemli eserlerinden biridir."
-      }
+        description:
+          "Sartre'ın varoluşçuluk üzerine yazdığı en önemli eserlerinden biridir.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-orange-300",
-      }
-    ]
+        color: "bg-green-300",
+      },
+    ],
   },
   {
     id: "saint-augustine",
@@ -1444,29 +1565,21 @@ export const philosophers: Philosopher[] = [
     nationality: "Roma",
     image: "/img/augustinus.jpg",
     bio: "Saint Augustinus, Batı Hristiyan felsefesinin en önemli düşünürlerinden biridir.",
-    keyIdeas: [
-      "Tanrı’nın varlığı",
-      "İman ve akıl",
-      "Özgür irade"
-    ],
+    keyIdeas: ["Tanrı’nın varlığı", "İman ve akıl", "Özgür irade"],
     influenced: [],
     influence: [],
     book: [
       {
         title: "İtiraflar",
         image: "/img/augustinus.jpg",
-        description: "Augustinus'un otobiyografik felsefi eseri."
-      }
+        description: "Augustinus'un otobiyografik felsefi eseri.",
+      },
     ],
     icons: [
       {
         icon: BookAIcon,
-        color: "bg-teal-300",
-      }
-    ]
-  }
-
-
-
-
+        color: "bg-green-300",
+      },
+    ],
+  },
 ];

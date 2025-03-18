@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { FilterMenu } from "@/components/FilterMenu";
 import { PhilosopherCard } from "@/components/PhilosopherCard";
 import { philosophers } from "@/data/philosophers";
@@ -9,7 +9,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
-  const [filteredPhilosophers, setFilteredPhilosophers] = useState(philosophers);
+  const [filteredPhilosophers, setFilteredPhilosophers] =
+    useState(philosophers);
   const [searchQuery, setSearchQuery] = useState("");
 
   // Sort philosophers by birth year
@@ -86,14 +87,15 @@ export default function Home() {
 
       <main className="flex-grow p-4 md:p-6">
         <div className="max-w-4xl mx-auto relative">
-          {/* Timeline center line with gradient */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/50 via-border to-primary/50 -translate-x-1/2 z-0"></div>
+          <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/50 via-border to-primary/50 translate-x-1/2 hidden md:block"></div>
 
           {/* Timeline content */}
           <div className="relative space-y-8 md:space-y-12 py-8">
             {sortedPhilosophers.length === 0 ? (
               <div className="text-center py-12">
-                <p className="text-lg text-muted-foreground">Sonuç bulunamadı</p>
+                <p className="text-lg text-muted-foreground">
+                  Sonuç bulunamadı
+                </p>
                 <Button
                   variant="outline"
                   className="mt-4"
@@ -165,7 +167,6 @@ export default function Home() {
                       <div
                         className={`
                           mt-16 md:mt-0 w-full md:w-5/12 
-                          ${expandedId === philosopher.id ? "z-20" : "z-10"}
                           ${index % 2 === 0 ? "md:pr-8" : "md:pl-8"}
                         `}
                       >
@@ -183,7 +184,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
     </div>
   );
 }

@@ -26,8 +26,8 @@ export const PhilosopherCard: React.FC<PhilosopherCardProps> = ({
   
   
   return (
-    <div className="relative w-full">
-      <div className="absolute -top-3  left-0 flex gap-2 z-20">
+    <div className="relative w-full ">
+      <div className="absolute-top-3  left-0 flex gap-2 ">
         {philosopher.icons?.map((icons, index) => (
           <div key={index} className={`${icons.color} p-1.5 rounded-md shadow-md`}>
             <icons.icon className="w-4 h-4" />
@@ -36,13 +36,13 @@ export const PhilosopherCard: React.FC<PhilosopherCardProps> = ({
       </div>
 
       <div
-        className={`philosopher-card rounded-xl mb-4 w-full border-pink-600 transition-all duration-300 ${
+        className={`philosopher-card rounded-xl mb-4 w-full  transition-all duration-300 ${
           isExpanded
             ? "philosopher-card-expanded shadow-lg"
             : "shadow-sm hover:shadow-md"
         }`}
         style={{
-          maxHeight: isExpanded ? "800px" : "100px",
+          maxHeight: isExpanded ? "800px" : "120px",
           zIndex: isExpanded ? 10 : 1,
         }}
       >
@@ -69,6 +69,9 @@ export const PhilosopherCard: React.FC<PhilosopherCardProps> = ({
             </p>
             <p className="text-xs sm:text-sm text-muted-foreground font-light">
               {philosopher.movement}
+            </p>
+            <p className="text-xs sm:text-sm text-muted-foreground font-light">
+              {philosopher.school}
             </p>
           </div>
           <div className="flex-shrink-0">
